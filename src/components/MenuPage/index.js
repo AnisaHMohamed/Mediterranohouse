@@ -1,8 +1,7 @@
 import React from "react";
 import MenuAccordian from "../MenuAccordian";
 import MediterranohouseLogo from "../MediterranohouseLogo";
-import { Image, HStack, Box } from "@chakra-ui/react";
-import hookah from "../../assets/hookah.png";
+import { Box } from "@chakra-ui/react";
 
 const MenuPage = () => {
   return (
