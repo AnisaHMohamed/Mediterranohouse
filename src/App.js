@@ -5,8 +5,7 @@ function App() {
   return (
     <div className="App">
     <ChakraProvider>
-    <Box height="100%" backgroundColor="#dbc4ff">
-      <MenuPage />
+    <Box height="100%" backgroundColor="#262424">      <MenuPage />
     </Box>
   </ChakraProvider>
     </div>

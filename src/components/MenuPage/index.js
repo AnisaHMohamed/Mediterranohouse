@@ -1,12 +1,12 @@
 import React from "react";
 import MenuAccordian from "../MenuAccordian";
-import JazeeraLogo from "../JazeeraLogo";
+import MediterranohouseLogo from "../MediterranohouseLogo";
 import { Box } from "@chakra-ui/react";
 
 const MenuPage = () => {
   return (
     <Box>
-      <JazeeraLogo />
+      <MediterranohouseLogo />
 
       <MenuAccordian />
     </Box>
