@@ -11,112 +11,143 @@ import {
 const MenuAccordian = () => {
   return (
     <Accordion allowMultiple>
-      <AccordionItem borderColor="#bc905a">
-        <h2>
-          <AccordionButton>
-            <Box
-              color="#bc905a"
-              fontSize="30px"
-              flex="1"
-              textAlign="left"
-              display="flex"
-              justifyContent="space-between"
-            >
-              Hookah
-            </Box>
-            <AccordionIcon color="#bc905a" />
-          </AccordionButton>
-        </h2>
-        <AccordionPanel pb={4} color="#bc905a">
-          <AccordionItem borderColor="transparent">
-            <h2>
-              <AccordionButton>
-                <Box
-                  color="#bc905a"
-                  fontSize="30px"
-                  flex="1"
-                  textAlign="left"
-                  display="flex"
-                  justifyContent="space-between"
-                >
-                  <Box>Classic</Box>
-                  <Box>$20</Box>
-                </Box>
-                <AccordionIcon color="#bc905a" />
-              </AccordionButton>
-            </h2>
-            <AccordionPanel pb={4} color="#bc905a">
-              Blueberry Mint
-            </AccordionPanel>
-            <AccordionPanel pb={4} color="#bc905a">
-              Double Apple
-            </AccordionPanel>
-            <AccordionPanel pb={4} color="#bc905a">
-              Grape Mint
-            </AccordionPanel>
-            <AccordionPanel pb={4} color="#bc905a">
-              Gum Mint
-            </AccordionPanel>
-          </AccordionItem>
-        </AccordionPanel>
-        <AccordionPanel>
-          <AccordionItem borderColor="transparent">
-            <h2>
-              <AccordionButton>
-                <Box
-                  color="#bc905a"
-                  fontSize="30px"
-                  flex="1"
-                  textAlign="left"
-                  display="flex"
-                  justifyContent="space-between"
-                >
-                  <Box>Premium</Box>
-                  <Box>$22</Box>
-                </Box>
-                <AccordionIcon color="#bc905a" />
-              </AccordionButton>
-            </h2>
-            <AccordionPanel pb={4} color="#bc905a">
-              Berlin Nights
-            </AccordionPanel>
-            <AccordionPanel pb={4} color="#bc905a">
-              Blue Mist
-            </AccordionPanel>
-            <AccordionPanel pb={4} color="#bc905a">
-              Lady Killer
-            </AccordionPanel>
-            <AccordionPanel pb={4} color="#bc905a">
-              Love 66
-            </AccordionPanel>
-          </AccordionItem>
-        </AccordionPanel>
-      </AccordionItem>
+    <AccordionItem borderColor="black">
+    <h2>
+      <AccordionButton>
+      <Box
+      color="black"
+      fontSize="30px"
+      flex="1"
+      textAlign="left"
+      display="flex"
+      justifyContent="space-between"
+    >
+      <Box>Hookah</Box>
+      <Box>$20</Box>
+    </Box>
+        <AccordionIcon color="black" />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4} color="black">
+    <Box
+      color="black"
+      flex="1"
+      textAlign="left"
+      display="flex"
+      justifyContent="space-between"
+    >
+      <Box>Refill</Box>
+      <Box>$5</Box>
+    </Box>
+  </AccordionPanel>
+    <AccordionPanel pb={4} color="black">
+      <Box
+        color="black"
+        flex="1"
+     
+      >
+        <Box>Lady Killer</Box>
+ 
+      </Box>
+    </AccordionPanel>
+    <AccordionPanel pb={4} color="black">
+    <Box
+      color="black"
+      flex="1"
+   
+    >
+      <Box>Blueberry Mint</Box>
 
-      <AccordionItem borderColor="#bc905a">
+    </Box>
+  </AccordionPanel>
+
+  <AccordionPanel pb={4} color="black">
+  <Box
+    color="black"
+    flex="1"
+   
+  >
+    <Box>Mint</Box>
+
+  </Box>
+</AccordionPanel>
+<AccordionPanel pb={4} color="black">
+  <Box
+    color="black"
+    flex="1"
+
+  >
+    <Box>Grape Mint</Box>
+
+  </Box>
+</AccordionPanel>
+<AccordionPanel pb={4} color="black">
+  <Box
+    color="black"
+    flex="1"
+  
+  >
+    <Box>Orange Mint</Box>
+
+  </Box>
+</AccordionPanel>
+<AccordionPanel pb={4} color="black">
+  <Box
+    color="black"
+    flex="1"
+   
+  >
+    <Box>Double Apple</Box>
+
+  </Box>
+</AccordionPanel>
+<AccordionPanel pb={4} color="black">
+  <Box
+    color="black"
+    flex="1"
+  >
+    <Box>Double Apple</Box>
+
+  </Box>
+</AccordionPanel>
+    <AccordionPanel pb={4} color="black">
+      <Box
+        color="#dbc4ff"
+        flex="1"
+        textAlign="left"
+        display="flex"
+        justifyContent="space-between"
+      >
+        <Box>Water</Box>
+        <Box>$2</Box>
+      </Box>
+    </AccordionPanel>
+  </AccordionItem>
+
+      <AccordionItem borderColor="black">
         <h2>
           <AccordionButton>
-            <Box color="#bc905a" fontSize="30px" flex="1" textAlign="left">
-              Drinks{" "}
+            <Box color="black" fontSize="30px" flex="1" textAlign="left">
+              Drinks
             </Box>
-            <AccordionIcon color="#bc905a" />
+            <AccordionIcon color="black" />
           </AccordionButton>
         </h2>
-        <AccordionPanel pb={4} color="#bc905a">
+        <AccordionPanel pb={4} color="black">
           <Box
-            color="#bc905a"
+            color="black"
             flex="1"
             textAlign="left"
             display="flex"
             justifyContent="space-between"
           >
-            <Box>Juice</Box>
+            <Box>Barbican</Box>
             <Box>$3</Box>
           </Box>
         </AccordionPanel>
-        <AccordionPanel pb={4} color="#bc905a">
+        <AccordionPanel pb={4} color="black">
           <Box
-            color="#bc905a"
+            color="black"
             flex="1"
             textAlign="left"
             display="flex"
@@ -126,18 +157,30 @@ const MenuAccordian = () => {
             <Box>$2</Box>
           </Box>
         </AccordionPanel>
-        <AccordionPanel pb={4} color="#bc905a">
+        <AccordionPanel pb={4} color="black">
           <Box
-            color="#bc905a"
+            color="black"
             flex="1"
             textAlign="left"
             display="flex"
             justifyContent="space-between"
           >
-            <Box>Water</Box>
-            <Box>$2</Box>
+            <Box>Red Bull</Box>
+            <Box>$3</Box>
           </Box>
         </AccordionPanel>
+        <AccordionPanel pb={4} color="black">
+        <Box
+          color="black"
+          flex="1"
+          textAlign="left"
+          display="flex"
+          justifyContent="space-between"
+        >
+          <Box>Water</Box>
+          <Box>$2</Box>
+        </Box>
+      </AccordionPanel>
       </AccordionItem>
     </Accordion>
   );
